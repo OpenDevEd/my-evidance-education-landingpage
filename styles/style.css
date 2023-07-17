@@ -87,6 +87,7 @@ main h2 {
   transition: scale 0.15s linear;
   padding-bottom: 10px;
   overflow: hidden;
+  text-decoration: none;
 }
 .card-slider .card:hover {
   cursor: pointer;
