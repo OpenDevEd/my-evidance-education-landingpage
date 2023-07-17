@@ -102,6 +102,10 @@ main {
     overflow: hidden;
     text-decoration: none;
 
+    * {
+      user-select: none;
+    }
+
     &:hover {
       cursor: pointer;
       scale: 1.1;
@@ -147,13 +151,10 @@ footer {
 
   a {
     text-decoration: none;
-    color: #0f0f0f;
+    color: inherit;
     cursor: pointer;
     z-index: 5;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    text-decoration: underline;
   }
 }
 
