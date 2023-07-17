@@ -9,7 +9,7 @@ body {
   position: relative;
   overflow-x: hidden;
   background-color: #fffffe;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 header {
@@ -64,16 +64,20 @@ main h2 {
   text-align: center;
   color: #e68124;
 }
-.card-slider .card_cont {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px 20px 40px;
-  gap: 20px;
-  max-width: 100%;
+.card-slider .card-cont {
   overflow-x: hidden;
   height: -moz-fit-content;
   height: fit-content;
-  transition: justify-content 0.3s ease;
+  position: relative;
+}
+.card-slider .cards {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 20px 40px;
+  gap: 40px;
+  max-width: 100%;
+  position: relative;
+  transition: left 0.15s ease;
 }
 .card-slider .card {
   width: 30%;
@@ -138,9 +142,18 @@ footer a:hover {
 }
 
 @media screen and (max-width: 980px) {
-  .card_cont {
+  .cards {
+    left: 0%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .card-cont {
     max-width: 70vw !important;
-    gap: 150px !important;
+  }
+  .card-cont .cards {
+    gap: calc(100% - 250px) !important;
+    padding-inline: 0px !important;
+    left: calc((100% - 250px) / 2);
   }
   .nav {
     fill: rgba(0, 0, 0, 0.2509803922);
@@ -173,9 +186,8 @@ footer a:hover {
     width: 90vw;
     height: auto;
   }
-  .card_cont {
+  .card-cont {
     max-width: 90vw !important;
-    gap: 150px !important;
   }
   .nav {
     top: 60%;
