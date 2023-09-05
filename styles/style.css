@@ -144,11 +144,30 @@ footer a {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 980px) {
-  .cards {
-    left: 0%;
-  }
+.card-slider:nth-child(2) .card-cont {
+  max-width: 70vw !important;
 }
+.card-slider:nth-child(2) .card-cont .cards {
+  padding-inline: 0px !important;
+}
+.card-slider:nth-child(2) .nav {
+  fill: rgba(0, 0, 0, 0.2509803922);
+  display: block !important;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  transition: fill 0.15s linear;
+}
+.card-slider:nth-child(2) .nav:hover {
+  fill: #000;
+}
+.card-slider:nth-child(2) .nav:nth-child(2n) {
+  right: -40px;
+}
+.card-slider:nth-child(2) .nav:nth-child(2n+1) {
+  left: -40px;
+}
+
 @media screen and (max-width: 980px) {
   .card-cont {
     max-width: 70vw !important;

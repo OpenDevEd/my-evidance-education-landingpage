@@ -158,9 +158,34 @@ footer {
   }
 }
 
-@media screen and (max-width: 980px) {
-  .cards {
-    left: 0%;
+.card-slider:nth-child(2) {
+  .card-cont {
+    max-width: 70vw !important;
+
+    .cards {
+      padding-inline: 0px !important;
+    }
+  }
+
+  .nav {
+    fill: #00000040;
+    display: block !important;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transition: fill 0.15s linear;
+
+    &:hover {
+      fill: #000;
+    }
+
+    &:nth-child(2n) {
+      right: -40px;
+    }
+
+    &:nth-child(2n + 1) {
+      left: -40px;
+    }
   }
 }
 
