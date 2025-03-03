@@ -8,6 +8,10 @@ export default {
   theme: {
   	extend: {
   		colors: {
+        orange: '#e68124',
+		brand: {
+			gray: '#a7a9be',
+		},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
   				foreground: 'hsl(var(--primary-foreground))'
