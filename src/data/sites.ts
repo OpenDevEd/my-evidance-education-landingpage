@@ -7,18 +7,18 @@ interface Site {
 
 export const sites: Site[] = [
   {
+    title: "Education in Malawi",
+    description:
+      "The Malawi Education Evidence Library offers over 1,100 educational resources pertinent to Malawi. It encompasses a wide array of materials, including research papers, teaching guides, and student workbooks, covering diverse subjects and educational levels. The library is designed to support educators, policymakers, and researchers by providing easy access to valuable information aimed at enhancing educational outcomes in Malawi. Powered by open-source tools Zotero and Kerko, it ensures efficient organisation and retrieval of resources.",
+    image: "/images/malawi.png",
+    link: "https://malawi.eved.io/lib/",
+  },
+  {
     title: "AIME Evidence Hub",
     description:
       "The National Council of Measurement in Education Evidence Library is a comprehensive repository of 269 resources focused on the application of artificial intelligence in education and measurement. It offers a diverse collection of preprints, journal articles, and conference papers, covering topics such as AI's role in educational measurement, the impact of AI on student engagement, and the integration of AI in classroom settings. Users can explore the library through various categories and search functionalities, facilitating easy access to the latest research and developments in the field. The platform is designed to support educators, researchers, and policymakers stay informed about AI's evolving role in education.",
     image: "/images/NCME.png",
     link: "https://aievidencehub.org/lib/",
-  },
-  {
-    title: "Evidence library for CLEEAR",
-    description:
-      "Climate Adaptation Research in LMICs. A 'thematic' library, collecting research on a specific topic.",
-    image: "/images/climate.png",
-    link: "https://climate.eved.io/lib/",
   },
   {
     title: "Evidence library of OpenDevEd",
@@ -33,6 +33,13 @@ export const sites: Site[] = [
       "The National Council of Measurement in Education Evidence Library is a comprehensive repository of 269 resources focused on the application of artificial intelligence in education and measurement. It offers a diverse collection of preprints, journal articles, and conference papers, covering topics such as AI's role in educational measurement, the impact of AI on student engagement, and the integration of AI in classroom settings. Users can explore the library through various categories and search functionalities, facilitating easy access to the latest research and developments in the field. The platform is designed to support educators, researchers, and policymakers stay informed about AI's evolving role in education.",
     image: "/images/SDG4.png",
     link: "https://sdg4.opendeved.net",
+  },
+  {
+    title: "Evidence library for CLEEAR",
+    description:
+      "Climate Adaptation Research in LMICs. A 'thematic' library, collecting research on a specific topic.",
+    image: "/images/climate.png",
+    link: "https://climate.eved.io/lib/",
   },
   {
     title: "Education in Malawi",
@@ -64,7 +71,8 @@ export const sites: Site[] = [
   },
   {
     title: "IIEP Policy Toolbox",
-    description: "Thematic library focusing on policy.",
+    description:
+      "The IIEP Policy Toolbox's Evidence Library is an extensive online repository of over 1,000 papers and reports, offering more than 500 education policy options. It addresses 49 key educational challenges, focusing on student completion, learning, and equity and inclusion. Users can navigate through thematic areas such as Access & Completion, Learning Processes, and Equity & Inclusion, or utilise an interactive search bar to explore policy options. Each policy page provides promising strategies, considerations for marginalised groups, and references to relevant literature. The library is a valuable resource for policymakers and educators seeking evidence-based solutions to improve educational outcomes.",
     image: "/images/IIEP.png",
     link: "https://policytoolbox.iiep.unesco.org/library/",
   },
