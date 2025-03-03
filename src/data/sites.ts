@@ -36,8 +36,7 @@ export const sites: Site[] = [
   },
   {
     title: "Evidence library for CLEEAR",
-    description:
-      "Climate Adaptation Research in LMICs. A 'thematic' library, collecting research on a specific topic.",
+    description: `The Climate Change Evidence Library is an extensive repository of literature examining the interplay between climate change and education. It offers insights into how extreme weather events disrupt schooling and the broader impacts of climate change on educational outcomes. The library includes analyses of education's role in climate change adaptation, such as the study. "Three roles for education in climate change adaptation. It also addresses challenges like those discussed in "Roadblocks to quality education in a time of climate change". This resource serves as a valuable tool for educators, policymakers, and researchers seeking to understand and mitigate the educational challenges posed by climate change.`,
     image: "/images/climate.png",
     link: "https://climate.eved.io/lib/",
   },
@@ -72,7 +71,7 @@ export const sites: Site[] = [
   {
     title: "IIEP Policy Toolbox",
     description:
-      "The IIEP Policy Toolbox's Evidence Library is an extensive online repository of over 1,000 papers and reports, offering more than 500 education policy options. It addresses 49 key educational challenges, focusing on student completion, learning, and equity and inclusion. Users can navigate through thematic areas such as Access & Completion, Learning Processes, and Equity & Inclusion, or utilise an interactive search bar to explore policy options. Each policy page provides promising strategies, considerations for marginalised groups, and references to relevant literature. The library is a valuable resource for policymakers and educators seeking evidence-based solutions to improve educational outcomes.",
+      "The IIEP Policy Toolbox's Evidence Library is an extensive online repository of over 1,000 papers and reports, offering more than 500 education policy options. It addresses 49 key educational challenges, focusing on student completion, learning, and equity and inclusion. Users can navigate through thematic areas such as Access & Completion, Learning Processes, and Equity & Inclusion, or utilise an interactive search bar to explore policy options. Each policy page provides promising strategies, considerations for marginalised groups, and references to relevant literature.",
     image: "/images/IIEP.png",
     link: "https://policytoolbox.iiep.unesco.org/library/",
   },
