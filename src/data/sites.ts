@@ -86,6 +86,13 @@ export const sites: Site[] = [
 
 export const relatedSites: Site[] = [
   {
+    title: "Evidence library of the EdTech Hub",
+    description:
+      "The EdTech Hub Evidence Library is a curated digital repository of research, reports, and resources on educational technology in low- and middle-income countries. It provides access to high-quality evidence to inform policy and practice in EdTech. Users can explore studies on digital learning, teacher development, and education equity. The library supports educators, policymakers, and researchers in making data-driven decisions for education improvement.",
+    image: "/images/EdTech.png",
+    link: "https://docs.edtechhub.org/lib/",
+  },
+  {
     title: "Evidence library of AdaptDev",
     description: "This is the evidence library of the AdaptDev programme.",
     image: "/images/malawi.png",
