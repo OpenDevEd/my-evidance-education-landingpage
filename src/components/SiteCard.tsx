@@ -15,7 +15,7 @@ export function SiteCard({ title, description, image, link }: SiteCardProps) {
       rel="noopener noreferrer"
       className="block h-full transition-transform duration-150 hover:scale-[1.01] mx-2"
     >
-      <Card className="h-full bg-white rounded-2xl overflow-hidden">
+      <Card className="bg-white rounded-2xl overflow-hidden">
         <CardHeader className="p-0">
           <img
             src={image}
