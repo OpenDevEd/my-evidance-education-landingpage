@@ -7,6 +7,13 @@ interface Site {
 
 export const sites: Site[] = [
   {
+    title: "Education Sector Evidence Architecture",
+    description:
+      "This library is a demonstration library for the March 2025 event at Marbach Castle. It contains the discoverable publications from all participating organizations. It illustrates how evidence libraries can be easily built as long as the organizations use DOIs.",
+    image: "/images/EducationSectorEvidenceArchitecture.png",
+    link: "https://esea.opendeved.net/lib/",
+  },
+  {
     title: "Education in Malawi",
     description:
       "The Malawi Education Evidence Library offers over 1,100 educational resources pertinent to Malawi. It encompasses a wide array of materials, including research papers, teaching guides, and student workbooks, covering diverse subjects and educational levels. The library is designed to support educators, policymakers, and researchers by providing easy access to valuable information aimed at enhancing educational outcomes in Malawi. Powered by open-source tools Zotero and Kerko, it ensures efficient organisation and retrieval of resources.",
