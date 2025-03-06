@@ -9,12 +9,12 @@ interface SiteCardProps {
   link: string;
 }
 
+const maxLength = 150; // approximately 4-5 lines of text
+
 export function SiteCard({ title, description, image, link }: SiteCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
-  const maxLength = 150; // approximately 4-5 lines of text
+  const [descriptionLines, setDescriptionLines] = useState("line-clamp-3");
   const shouldTruncate = description.length > maxLength;
-  const [descriptionLines, setDescriptionLines] = useState(0);
-
   const titleRef = useRef<HTMLHeadingElement>(null);
 
   const handleExpandClick = (e: React.MouseEvent) => {
@@ -27,9 +27,9 @@ export function SiteCard({ title, description, image, link }: SiteCardProps) {
     if (titleRef.current) {
       const titleHeight = titleRef.current.offsetHeight;
       if (titleHeight > 40) {
-        setDescriptionLines(2);
+        setDescriptionLines("line-clamp-2");
       } else {
-        setDescriptionLines(3);
+        setDescriptionLines("line-clamp-3");
       }
     }
   }, [title]);
@@ -65,7 +65,7 @@ export function SiteCard({ title, description, image, link }: SiteCardProps) {
           <div
             className={cn(
               "text-brand-gray",
-              !isExpanded && `line-clamp-${descriptionLines}`
+              !isExpanded && descriptionLines
             )}
           >
             <p>{description}</p>
