@@ -57,7 +57,7 @@ export const sites: Site[] = [
   {
     title: "METEA Library",
     description:
-      "The Evidence Library on the METEA website offers a collection of resources related to mathematics education, emphasizing empirical studies, reports, and research findings, allowing users to explore and search through a variety of documents that address educational practices and challenges, particularly in numeracy and mathematics teaching. ",
+      "The Evidence Library on the METEA website offers a collection of resources related to mathematics education, emphasising empirical studies, reports, and research findings, allowing users to explore and search through a variety of documents that address educational practices and challenges, particularly in numeracy and mathematics teaching. ",
     image: "/images/metea.png",
     link: "https://docs.metea.org.uk/lib/",
   },
