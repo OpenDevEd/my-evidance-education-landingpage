@@ -9,7 +9,7 @@ export const sites: Site[] = [
   {
     title: "Education Sector Evidence Architecture",
     description:
-      "This library is a demonstration library for the March 2025 event at Marbach Castle. It contains the discoverable publications from all participating organizations. It illustrates how evidence libraries can be easily built as long as the organizations use DOIs.",
+      "This library is a demonstration library for the March 2025 event at Marbach Castle. It contains the discoverable publications from all participating organisations. It illustrates how evidence libraries can be easily built as long as the organisations use DOIs.",
     image: "/images/EducationSectorEvidenceArchitecture.png",
     link: "https://esea.opendeved.net/lib/",
   },
