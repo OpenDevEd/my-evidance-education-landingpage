@@ -62,9 +62,9 @@ export const sites: Site[] = [
     link: "https://docs.metea.org.uk/lib/",
   },
   {
-    title: "Programa Potenciar",
+    title: "Kaleidoscopio",
     description:
-      "The Programa Potenciar Evidence Library is an extensive resource offering a vast collection of bibliographic records and documents. The library features an Explore section, allowing users to filter results by categories and subcategories, refining searches effectively. It is comprised of over 700 resources with each page, linking to full bibliographic records and, when available, direct access to the documents.",
+      "The Kaleidoscopio Evidence Library is an extensive resource offering a vast collection of bibliographic records and documents. The library features an Explore section, allowing users to filter results by categories and subcategories, refining searches effectively. It is comprised of over 700 resources with each page, linking to full bibliographic records and, when available, direct access to the documents.",
     image: "/images/progPot.png",
     link: "https://docs.programapotenciar.com/lib/",
   },
