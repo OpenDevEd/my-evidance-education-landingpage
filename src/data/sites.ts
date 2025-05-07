@@ -7,6 +7,13 @@ interface Site {
 
 export const sites: Site[] = [
   {
+    title: "FCDO Evidence Fund",
+    description:
+      "The Evidence Fund Evidence Library is a resource that provides access to a wide range of bibliographic records and documents. With a collection of entries that are added continuously, each entry links to a full bibliographic record and, where available, offers direct access to the associated documents.",
+    image: "/images/evidencefund.png",
+    link: "https://www.evidencefund.com/lib",
+  },
+  {
     title: "Education Sector Evidence Architecture",
     description:
       "This library is a demonstration library for the March 2025 event at Marbach Castle. It contains the discoverable publications from all participating organisations. It illustrates how evidence libraries can be easily built as long as the organisations use DOIs.",
