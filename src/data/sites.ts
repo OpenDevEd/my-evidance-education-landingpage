@@ -109,7 +109,7 @@ export const relatedSites: Site[] = [
   {
     title: "Evidence library of AdaptDev",
     description: "This is the evidence library of the AdaptDev programme.",
-    image: "/images/malawi.png",
+    image: "/images/adaptDev.png",
     link: "https://docs.adaptdev.info/",
   },
   {
